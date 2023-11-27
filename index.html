@@ -7,14 +7,20 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>From 2d to 3d</h1>
+    <div class="title">
+      <h1>From 2d to 3d</h1>
+      <input id="button" type="button" value="Load Animation" onclick="reloadPage()" />
+    </div>
     <div class="parallax">
       <img id="background" src="./images/background.png" alt="background" />
       <div class="all-image">
-        <!-- <img id="elefant" src="./images/elefant.png" alt="elefant"> -->
+        <img id="elefant" src="./images/elefant.png" alt="elefant" />
         <img id="tree" src="./images/tree.png" alt="tree" />
         <img id="garden" src="./images/garden.png" alt="garden" />
       </div>
     </div>
-  </body>
-</html>
+
+    <script>
+      function reloadPage() {
+        location.reload(true);
+ 
