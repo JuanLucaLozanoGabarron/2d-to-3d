@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
 
 * {
   margin: 0;
@@ -16,11 +16,13 @@ body {
 }
 
 #button {
-padding: 10px 60px;
-background-color: green;
-border: 0px;
-color: white;
-font-size: 14px;
+  padding: 10px 60px;
+  font-family: Montserrat;
+  border: 1px solid;
+  height: 40px;
+  width: 220px;
+  background-color: #7f867b;
+  color: white;
 }
 
 .parallax {
